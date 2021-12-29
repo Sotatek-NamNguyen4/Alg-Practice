@@ -5,17 +5,22 @@ public class Program {
 
     public static void main(String[] args) {
 
-        ReverseString.reverseStr("HELLO");
+//        ReverseString.reverseStr("HELLO");
+//
+//        ConcatArrays.concatArr();
+//
+//        RandomString.getRndStr();
+//
+//        Circle.drawCircle();
+//
+//        NumberOfSundays.countSundays();
 
-        ConcatArrays.concatArr();
+        StringBuilder ant = new StringBuilder();
+        for (int i = 0; i < 8; i++) {
+            AntSequence.printSeq(ant);
+        }
 
-        RandomString.getRndStr();
-
-        Circle.drawCircle();
-
-        NumberOfSundays.countSundays(); // 2022???
-
-        PasswordValidation.validate("p1zz@r1A");
+//        PasswordValidation.validate("Abbccccccc6@");
     }
 
 }
